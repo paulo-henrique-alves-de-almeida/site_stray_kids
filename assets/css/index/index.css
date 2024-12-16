@@ -1,0 +1,116 @@
+/* estilos para a página index */
+
+:root {
+    --background-modal: #1c1e26;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.btn-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30pt;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-play:hover {
+    transform: scale(1.05) translate(-50%, -50%);
+}
+ 
+.btn-play:active {
+    transform: scale(.95) translate(-50%, -50%);
+}
+
+.modal-video {
+    background-color: var(--background-modal);
+    padding: 2rem;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(0 0 0 / 0.5);
+}
+
+.modal-video::backdrop {
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+.modal-video iframe {
+    border-radius: 15px;
+}
+
+.btn-fechar-modal-video {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: var(--cor-principal-clara);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-fechar-modal-video:hover {
+    transform: scale(1.1);
+}
+ 
+.btn-fechar-modal-video:active {
+    transform: scale(.9);
+}
+
+.headphone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    transform: rotate(-15deg);
+
+}
+
+.refrigerante {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 65px;
+}
+
+.pipoca {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 65px;
+}
+ 
+.titulo-album {
+    gap: 10rem;
+    height: 40vh;
+    margin-right: 2rem;
+    text-align: right;
+}
+
+.album {
+    font-size: 60pt;
+    color: white;
+}
+
+.titulo {
+    width: 20rem;
+    font-size: 25pt;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* javascript */
+.redes.active a i {
+    color: var(--cor-texto);
+}
