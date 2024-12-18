@@ -8,7 +8,6 @@ const copyright = document.querySelector('.copyright');
 
 // mudando algumas cores
 btnMenu.addEventListener('click', () => {
-    btnMenu.classList.toggle('active');
     redes.classList.toggle('active');
 
     if (nav.classList.contains('active')) {
@@ -39,3 +38,24 @@ modalVideo.addEventListener('click', (event) => {
         modalVideo.close();
     }
 });
+
+// scroll reveal
+ScrollReveal().reveal('.album', {
+    origin: 'right',
+    duration: 2000,
+    distance: '5%'
+});
+ 
+ScrollReveal().reveal('.titulo', {
+    origin: 'right',
+    duration: 2000,
+    distance: '5%',
+    delay: 200
+});
+ 
+ScrollReveal().reveal('.noticia', {
+    origin: 'right',
+    duration: 1000,
+    delay: 600
+});
+ 

@@ -1,0 +1,110 @@
+/* estilos para a páginas de integrantes */
+
+:root {
+    --bang-chan: linear-gradient(90deg, #0D0D0D, #B22222);
+    --lee-know: linear-gradient(90deg, #3366FF, #9933CC);
+    --changbin: #0c0c0c;
+    --hyunjin: #FFD700;
+    --han: #FFA500;
+    --felix: #FFEE00;
+    --seungmin: #FF6F00;
+    --in: linear-gradient(90deg, #33CC66, #9966CC);
+}
+
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-integrantes {
+    width: 20vw;
+    padding: 2rem;
+    list-style: none;
+    line-height: 32px;
+}
+
+.lista-integrantes li {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05em;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.lista-integrantes li:hover {
+    color: var(--cor-principal-clara);
+    letter-spacing: .1em;
+}
+
+.imagem-integrante {
+    width: 30vw;
+    height: 590px;
+    transition: all .3s ease;
+
+    display: none;
+}
+
+.fundo {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    margin: -35px 0 0 -35px;
+    width: 380px;
+    height: 530px;
+    opacity: .5;
+    border-radius: 15px;
+}
+
+.imagem-integrante img {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    height: 530px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 20px 0 #bdbcbc;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.info-integrante {
+    display: none;
+}
+
+#nome-integrante {
+    text-transform: uppercase;
+}
+
+#nome-nasc-integrante,
+#tipo-integrante {
+    text-transform: capitalize;
+}
+
+.table-info-integrante {
+    margin-top: 2rem;
+}
+
+.table-info-integrante strong {
+    font-weight: 500;
+    padding-right: .2rem;
+}
+
+.table-info-integrante a {
+    color: var(--cor-texto);
+    transition: all .3s ease;
+}
+
+.table-info-integrante a:hover {
+    color: var(--cor-principal-clara);
+    letter-spacing: .01rem;
+}

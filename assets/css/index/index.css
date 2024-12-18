@@ -89,11 +89,16 @@ main {
     height: 65px;
 }
  
-.titulo-album {
+.conteudo-direita {
     gap: 10rem;
     height: 40vh;
     margin-right: 2rem;
     text-align: right;
+}
+
+.titulo-album {
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
 }
 
 .album {
@@ -106,7 +111,12 @@ main {
     font-size: 25pt;
     margin-top: 2rem;
     padding-bottom: 3rem;
-    border-bottom: 1px solid white;
+    color: white;
+}
+
+.noticia {
+    font-weight: 700;
+    font-size: 15pt;
     color: white;
 }
 
