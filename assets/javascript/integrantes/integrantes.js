@@ -2,6 +2,7 @@
 const imagemIntegrante = document.querySelector('.imagem-integrante');
 const info = document.querySelector('.info-integrante');
 const citacao = document.querySelectorAll('.citacao');
+const listaIntegrantes = document.querySelector('.lista-integrantes')
 
 // adquirindo lista de integrantes
 const bangChan = document.getElementById('bang-chan');
@@ -36,8 +37,16 @@ const nomeNascIntegrante = document.getElementById('nome-nasc-integrante');
 btnMenu.addEventListener('click', () => {
     if (btnMenu.classList.contains('active')) {
         imagemIntegrante.style.transform = 'translateY(1000%)';
+        citacao[0].style.transform = 'translateY(1000%)';
+        citacao[1].style.transform = 'translateY(1000%)';
+        info.style.transform = 'translateY(1000%)';
+        listaIntegrantes.style.display = 'none';
     } else {
         imagemIntegrante.style.transform = 'translateY(0)';
+        citacao[0].style.transform = 'translateY(0)';
+        citacao[1].style.transform = 'translateY(0)';
+        info.style.transform = 'translateY(0)';
+        listaIntegrantes.style.display = 'block';
     }
 });
 
@@ -159,15 +168,8 @@ iN.addEventListener('click', () => {
 });
 
 // scroll reveal
-ScrollReveal().reveal('.lista-integrante', {
+ScrollReveal().reveal('.lista-integrantes', {
     origin: 'left',
     duration: 2000,
     distance: '5%'
 });
- 
-ScrollReveal().reveal('.citacao', {
-    origin: 'right',
-    duration: 2000,
-    distance: '5%'
-});
- 

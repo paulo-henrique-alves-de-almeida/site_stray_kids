@@ -1,0 +1,84 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: -1;
+}
+
+.premios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 2rem;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .5rem;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    max-width: 50%;
+    float: right;
+}
+
+.imagem-premiacao {
+    width: 280px;
+    height: 169px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px 0 #bdbcbc;
+}
+
+.desc-imagem {
+    font-size: 10pt;
+}
+
+h1 {
+    margin-block: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:not(:first-child) {
+    border-bottom: 2px solid #cecece;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: .5rem;
+    text-align: center;
+}
+
+th:first-child {
+border-top-left-radius: 10px;
+}
+
+th:last-child{
+    border-top-right-radius: 10px;
+}
+
+td {
+    padding: .5rem;
+    text-align: center;
+}
+
+td a {
+    color: var(--cor-texto);
+    transition: all .3s ease;
+}
+
+td a:hover {
+    color: var(--cor-principal-clara);
+}

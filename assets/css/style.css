@@ -200,6 +200,7 @@ footer {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    background-color: white;
     bottom: 0;
     height: 10vh;
     padding: 2rem;
