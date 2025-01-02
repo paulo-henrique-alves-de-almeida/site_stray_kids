@@ -52,7 +52,7 @@ btnMenu.addEventListener('click', () => {
 
 // mostrando informações sobre os integrantes
 bangChan.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/2ef263748c0e49cea7f09fdc369a346b-1%EB%B0%A9%EC%B0%AC1.jpg';
+    imgIntegrante.src = '../imagens/integrantes/bang_chan.jpg';
     fundo.style.background = corBangChan;
     frase[0].textContent = "Let's just have fun";
     credito[0].textContent = 'Bang Chan';
@@ -68,7 +68,7 @@ bangChan.addEventListener('click', () => {
 });
  
 leeKnow.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/2ad80e3629c441928befb424e47bdc89-2%EB%A6%AC%EB%85%B81.jpg';
+    imgIntegrante.src = '../imagens/integrantes/lee_know.jpg';
     fundo.style.background = corLeeKnow;
     nomeIntegrante.textContent = 'lee know';
     nomeNascIntegrante.innerHTML = 'Lee Min-ho<br>(이민호)';
@@ -82,7 +82,7 @@ leeKnow.addEventListener('click', () => {
 });
  
 changbin.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/569b654beafc4ee7a3caa568ef96cf9c-3%EC%B0%BD%EB%B9%882.jpg';
+    imgIntegrante.src = '../imagens/integrantes/changbin.jpg';
     fundo.style.background = corChangbin;
     nomeIntegrante.textContent = 'changbin';
     nomeNascIntegrante.innerHTML = 'Seo Chang-bin<br>(서창빈)';
@@ -96,7 +96,7 @@ changbin.addEventListener('click', () => {
 });
  
 hyunjin.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/56cd3b882da64e5bbc5918ae24692a6b-4%ED%98%84%EC%A7%842.jpg';
+    imgIntegrante.src = '../imagens/integrantes/hyunjin.jpg';
     fundo.style.background = corHyunjin;
     nomeIntegrante.textContent = 'hyunjin';
     nomeNascIntegrante.innerHTML = 'Hwang Hyun-jin<br>(황현진)';
@@ -110,7 +110,7 @@ hyunjin.addEventListener('click', () => {
 });
 
 han.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/4a06483555e343d19a2f7e1a2ef2c27d-5%ED%95%9C2.jpg';
+    imgIntegrante.src = '../imagens/integrantes/han.jpg';
     fundo.style.background = corHan;
     frase[0].textContent = "Embora também amemos sons extravagantes e cheios de energia, espero que eles não se tornem nosso som definidor.";
     credito[0].textContent = 'Han';
@@ -126,7 +126,7 @@ han.addEventListener('click', () => {
 });
   
 felix.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/a4bfbb4dd7c74603a035b0da895ff7af-6%ED%95%84%EB%A6%AD%EC%8A%A41.jpg';
+    imgIntegrante.src = '../imagens/integrantes/felix.jpg';
     fundo.style.background = corFelix;
     nomeIntegrante.textContent = 'felix';
     nomeNascIntegrante.innerHTML = 'Lee Felix Yong-bok<br>(이필릭스용복)';
@@ -140,7 +140,7 @@ felix.addEventListener('click', () => {
 });
   
 seungmin.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/4d9408fccf85451daae7b9eb93e0534e-7%EC%8A%B9%EB%AF%BC2.jpg';
+    imgIntegrante.src = '../imagens/integrantes/seungmin.jpg';
     fundo.style.background = corSeungmin;
     nomeIntegrante.textContent = 'seungmin';
     nomeNascIntegrante.innerHTML = 'Kim Seung-min<br>(김승민)';
@@ -154,7 +154,7 @@ seungmin.addEventListener('click', () => {
 });
   
 iN.addEventListener('click', () => {
-    imgIntegrante.src = 'https://lv2-cdn.azureedge.net/straykids/9aff685e8c5245649d50f267118d5ee6-8%EC%95%84%EC%9D%B4%EC%97%941.jpg';
+    imgIntegrante.src = '../imagens/integrantes/in.jpg';
     fundo.style.background = corIn;
     nomeIntegrante.textContent = 'I.N';
     nomeNascIntegrante.innerHTML = 'Yang Jeong-in<br>(양정인)';
