@@ -15,3 +15,9 @@ ScrollReveal().reveal('h1', {
     duration: 1000,
     distance: '5%'
 });
+
+ScrollReveal().reveal('.citacao', {
+    origin: 'right',
+    duration: 2000,
+    distance: '5%'
+});
