@@ -53,7 +53,7 @@ const skzReplay = document.getElementById('skz-replay');
 const maxident = document.getElementById('maxident');
 const timeOut = document.getElementById('time-out');
 const oddinary = document.getElementById('oddinary');
-const christimasEvel = document.getElementById('christimas-evel');
+const christmasEvel = document.getElementById('christmas-evel');
 const noeasy = document.getElementById('noeasy');
 const oh = document.getElementById('oh');
 const allIn = document.getElementById('all-in');
@@ -126,8 +126,8 @@ oddinary.addEventListener('click', () => {
   window.location.href = 'albuns/oddinary.html';
 });
 
-christimasEvel.addEventListener('click', () => {
-  window.location.href = 'albuns/christimas_evel.html';
+christmasEvel.addEventListener('click', () => {
+  window.location.href = 'albuns/christmas_evel.html';
 });
 
 noeasy.addEventListener('click', () => {

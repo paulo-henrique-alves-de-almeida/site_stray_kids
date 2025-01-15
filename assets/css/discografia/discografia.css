@@ -44,6 +44,14 @@ h1 {
     z-index: 2;
 }
 
+.swiper-slide:hover .titulo-album {
+    color: var(--cor-principal-clara);
+}
+
+.swiper-slide:hover .lanc-album {
+    color: var(--cor-principal);
+}
+
 .imagem-album {
     width: 100%;
     overflow: hidden;
@@ -66,12 +74,14 @@ h1 {
     font-weight: 600;
     white-space: nowrap;
     text-overflow: ellipsis;
+    transition: all .3s ease;
 }
 
 .lanc-album {
     font-size: 9pt;
     color: #484848;
     margin-top: 7px;
+    transition: all .3s ease;
 }
 
 #controles {

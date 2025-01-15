@@ -40,164 +40,152 @@ ScrollReveal().reveal('.conteudo', {
 // links para albuns
 
 // adquirindo elementos
+const iframe = document.querySelector('iframe');
+
 const walkinOnWater = document.getElementById('walkin-on-water');
-const hop = document.getElementById('hop');
-const giant = document.getElementById('giant');
-const slash = document.getElementById('slash');
 const chkChkBoom = document.getElementById('chk-chk-boom');
-const ate = document.getElementById('ate');
 const loseMyBreath = document.getElementById('lose-my-breath');
-const star = document.getElementById('star');
-const fiveStar = document.getElementById('5-star');
-const skzReplay = document.getElementById('skz-replay');
-const maxident = document.getElementById('maxident');
+const lalala = document.getElementById('lalala');
+const sClass = document.getElementById('s-class');
+const fam = document.getElementById('fam');
+const case143 = document.getElementById('case-143');
 const timeOut = document.getElementById('time-out');
-const oddinary = document.getElementById('oddinary');
-const christimasEvel = document.getElementById('christimas-evel');
-const noeasy = document.getElementById('noeasy');
+const maniac = document.getElementById('maniac');
+const winterFalls = document.getElementById('winter-falls');
+const christmasEvel = document.getElementById('christmas-evel');
+const thunderous = document.getElementById('thunderous');
 const oh = document.getElementById('oh');
-const allIn = document.getElementById('all-in');
-const In = document.getElementById('in');
-const go = document.getElementById('go');
-const Top = document.getElementById('top');
-const mixtapeTolo = document.getElementById('mixtape-tolo');
-const skz2020 = document.getElementById('skz2020');
-const stepOut = document.getElementById('step-out');
+const backDoor = document.getElementById('back-door');
+const godsMenu = document.getElementById('gods-menu');
+const onTrack = document.getElementById('on-track');
+const levanterJp = document.getElementById('levanter-jp');
+const doubleKnotEn = document.getElementById('double-knot-en');
 const goneDays = document.getElementById('gone-days');
 const levanter = document.getElementById('levanter');
+const astronaut = document.getElementById('astronaut');
 const doubleKnot = document.getElementById('double-knot');
-const yellowWood = document.getElementById('yellow-wood');
+const sideEffects = document.getElementById('side-effects');
 const miroh = document.getElementById('miroh');
 const you = document.getElementById('you');
 const who = document.getElementById('who');
-const not = document.getElementById('not');
-const mixtape = document.getElementById('mixtape');
+const district9 = document.getElementById('district9');
+const grr = document.getElementById('grr');
+const hellevator = document.getElementById('hellevator');
 
 // link através do clique
 walkinOnWater.addEventListener('click', () => {
-  window.location.href = 'albuns/walkin_on_water_remixes.html';
-});
-
-hop.addEventListener('click', () => {
-  window.location.href = 'albuns/hop.html';
-});
-
-giant.addEventListener('click', () => {
-  window.location.href = 'albuns/giant.html';
-});
-
-slash.addEventListener('click', () => {
-  window.location.href = 'albuns/slash.html';
+  iframe.src = 'https://www.youtube.com/embed/ovHoY8UBIu8?si=PgcZxWKh1C_kY-zZ';
+  console.log('fsjdifs');
 });
 
 chkChkBoom.addEventListener('click', () => {
-  window.location.href = 'albuns/chk_chk_boom_remixes.html';
-});
-
-ate.addEventListener('click', () => {
-  window.location.href = 'albuns/ate.html';
+  iframe.src = 'https://www.youtube.com/embed/0P0aQreFs8w?si=qG_YmzgGOZCUfGXA'
 });
 
 loseMyBreath.addEventListener('click', () => {
-  window.location.href = 'albuns/lose_my_breath_remixes.html';
+  iframe.src = 'https://www.youtube.com/embed/SQ1yPMTIwCU?si=Q9nr4TmqXMN7CuyA';
 });
 
-star.addEventListener('click', () => {
-  window.location.href = 'albuns/star.html';
+lalala.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/dBDkYofMUs4?si=47g54TSgS4CFPhH3';
 });
 
-fiveStar.addEventListener('click', () => {
-  window.location.href = 'albuns/5_star.html';
+sClass.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/JsOOis4bBFg?si=RPJHV_L0gN6e9JSc';
 });
 
-skzReplay.addEventListener('click', () => {
-  window.location.href = 'albuns/skz_replay.html';
+fam.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/D8WwqWS2E6E?si=g__XPow8WmVzIpkD';
 });
 
-maxident.addEventListener('click', () => {
-  window.location.href = 'albuns/maxident.html';
+case143.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/jYSlpC6Ud2A?si=Ef41tClHj119i9r5';
 });
 
 timeOut.addEventListener('click', () => {
-  window.location.href = 'albuns/mixtape_time_out.html';
+  iframe.src = 'https://www.youtube.com/embed/ukIGxgdbqqI?si=IrsxHRZy9BDSiStZ';
 });
 
-oddinary.addEventListener('click', () => {
-  window.location.href = 'albuns/oddinary.html';
+maniac.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/OvioeS1ZZ7o?si=DxWFHZP8uIBYZfVX';
 });
 
-christimasEvel.addEventListener('click', () => {
-  window.location.href = 'albuns/christimas_evel.html';
+winterFalls.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/S4qK-Gzyws0?si=f0AxtDUohvq-VioV';
 });
 
-noeasy.addEventListener('click', () => {
-  window.location.href = 'albuns/noeasy.html';
+christmasEvel.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/57n4dZAPxNY?si=hRlGniQFfEOn92Bq';
+});
+
+thunderous.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/EaswWiwMVs8?si=HDQOkStJ14-ANeZz';
 });
 
 oh.addEventListener('click', () => {
-  window.location.href = 'albuns/mixtape_oh.html';
+  iframe.src = 'https://www.youtube.com/embed/M7lIml8-eHU?si=ei_70gY_00OMThST';
 });
 
-allIn.addEventListener('click', () => {
-  window.location.href = 'albuns/all_in.html';
+backDoor.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/X-uJtV8ScYk?si=-4h27tBHl-B_mWPy';
 });
 
-In.addEventListener('click', () => {
-  window.location.href = 'albuns/in.html';
+godsMenu.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/TQTlCHxyuu8?si=QFk-EDnMo6YWqQhM';
 });
 
-go.addEventListener('click', () => {
-  window.location.href = 'albuns/go.html';
+onTrack.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/XkxWIAe3NDU?si=caAx7RMMSgfXSOiV';
 });
 
-Top.addEventListener('click', () => {
-  window.location.href = 'albuns/top.html';
+levanterJp.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/YlOLn9Pd9R4?si=A083m9kBGneo3eIu';
 });
 
-mixtapeTolo.addEventListener('click', () => {
-  window.location.href = 'albuns/mixtape_on_track.html';
-});
-
-skz2020.addEventListener('click', () => {
-  window.location.href = 'albuns/skz2020.html';
-});
-
-stepOut.addEventListener('click', () => {
-  window.location.href = 'albuns/step_out_of_cle.html';
+doubleKnotEn.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/ra0FlN5NBG4?si=fz6oAeBEwvTMov3k';
 });
 
 goneDays.addEventListener('click', () => {
-  window.location.href = 'albuns/mixtape_gone_days.html';
+  iframe.src = 'https://www.youtube.com/embed/KAPXc0M4tLg?si=9yOtXCCqHPpotIUT';
 });
 
 levanter.addEventListener('click', () => {
-  window.location.href = 'albuns/cle_levanter.html';
+  iframe.src = 'https://www.youtube.com/embed/Fpgd3ac3_nM?si=sgygFj8ednsybxyx';
+});
+
+astronaut.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/ZnpEBYvgiAU?si=ZFbCmZRGpqV6t3yb';
 });
 
 doubleKnot.addEventListener('click', () => {
-  window.location.href = 'albuns/double_knot.html';
+  iframe.src = 'https://www.youtube.com/embed/UWoyeuwj9c0?si=cjMc0MnwQjr5Pxap';
 });
 
-yellowWood.addEventListener('click', () => {
-  window.location.href = 'albuns/cle_2_yellow_wood.html';
+sideEffects.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/5rPluw_-Eb4?si=F23Q4Tepaw1FBC7x';
 });
 
 miroh.addEventListener('click', () => {
-  window.location.href = 'albuns/cle_1_miroh.html';
+  iframe.src = 'https://www.youtube.com/embed/Dab4EENTW5I?si=96cuc8CqUpg2mYGK';
 });
 
 you.addEventListener('click', () => {
-  window.location.href = 'albuns/i_am_you.html';
+  iframe.src = 'https://www.youtube.com/embed/CNfodZluR-Q?si=RdzMJw8JaEm7GDaR';
 });
 
 who.addEventListener('click', () => {
-  window.location.href = 'albuns/i_am_who.html';
+  iframe.src = 'https://www.youtube.com/embed/pok5yDw77uM?si=JSqPoOXQVCuTytP5';
 });
 
-not.addEventListener('click', () => {
-  window.location.href = 'albuns/i_am_not.html';
+district9.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/u6unJQownW4?si=dN8oIevH7ZHy6FtJ';
 });
 
-mixtape.addEventListener('click', () => {
-  window.location.href = 'albuns/mixtape.html';
+grr.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/Sy3ERg7OCWo?si=85GwU691-G2bdivK';
+});
+
+hellevator.addEventListener('click', () => {
+  iframe.src = 'https://www.youtube.com/embed/AdfIfFGCqgo?si=z8ckz51QVFwc9mfJ';
 });
