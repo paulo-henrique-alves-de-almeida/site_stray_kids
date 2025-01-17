@@ -32,6 +32,7 @@ const credito = document.querySelectorAll('.credito');
 const nomeIntegrante = document.getElementById('nome-integrante');
 const dataIntegrante = document.getElementById('data-integrante');
 const nomeNascIntegrante = document.getElementById('nome-nasc-integrante');
+const alturaIntegrante = document.getElementById('altura-integrante');
 
 // sumir com a imagem
 btnMenu.addEventListener('click', () => {
@@ -59,6 +60,7 @@ bangChan.addEventListener('click', () => {
     nomeIntegrante.textContent = 'bang chan';
     nomeNascIntegrante.innerHTML = 'Bahng Christopher Chahn<br>(방크리스토퍼찬)';
     dataIntegrante.textContent = '03 / 10 / 1997';
+    alturaIntegrante.textContent = '171cm';
 
     citacao[1].style.display = 'none';
     
@@ -73,6 +75,7 @@ leeKnow.addEventListener('click', () => {
     nomeIntegrante.textContent = 'lee know';
     nomeNascIntegrante.innerHTML = 'Lee Min-ho<br>(이민호)';
     dataIntegrante.textContent = '25 / 10 / 1998';
+    alturaIntegrante.textContent = '170cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';
@@ -87,6 +90,7 @@ changbin.addEventListener('click', () => {
     nomeIntegrante.textContent = 'changbin';
     nomeNascIntegrante.innerHTML = 'Seo Chang-bin<br>(서창빈)';
     dataIntegrante.textContent = '11 / 08 / 1999';
+    alturaIntegrante.textContent = '167cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';
@@ -101,6 +105,7 @@ hyunjin.addEventListener('click', () => {
     nomeIntegrante.textContent = 'hyunjin';
     nomeNascIntegrante.innerHTML = 'Hwang Hyun-jin<br>(황현진)';
     dataIntegrante.textContent = '20 / 03 / 2000';
+    alturaIntegrante.textContent = '179cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';
@@ -117,6 +122,7 @@ han.addEventListener('click', () => {
     nomeIntegrante.textContent = 'Han';
     nomeNascIntegrante.innerHTML = 'Han Ji-sung<br>(한지성)';
     dataIntegrante.textContent = '14 / 09 / 2000';
+    alturaIntegrante.textContent = '169cm';
 
     citacao[1].style.display = 'none';
     
@@ -131,6 +137,7 @@ felix.addEventListener('click', () => {
     nomeIntegrante.textContent = 'felix';
     nomeNascIntegrante.innerHTML = 'Lee Felix Yong-bok<br>(이필릭스용복)';
     dataIntegrante.textContent = '15 / 09 / 2000';
+    alturaIntegrante.textContent = '171cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';
@@ -145,6 +152,7 @@ seungmin.addEventListener('click', () => {
     nomeIntegrante.textContent = 'seungmin';
     nomeNascIntegrante.innerHTML = 'Kim Seung-min<br>(김승민)';
     dataIntegrante.textContent = '22 / 09 / 2000';
+    alturaIntegrante.textContent = '175cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';
@@ -159,6 +167,7 @@ iN.addEventListener('click', () => {
     nomeIntegrante.textContent = 'I.N';
     nomeNascIntegrante.innerHTML = 'Yang Jeong-in<br>(양정인)';
     dataIntegrante.textContent = '08 / 02 / 2001';
+    alturaIntegrante.textContent = '170cm';
     
     citacao[0].style.display = 'none';
     citacao[1].style.display = 'none';

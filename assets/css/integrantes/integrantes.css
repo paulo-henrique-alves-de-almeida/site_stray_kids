@@ -1,9 +1,9 @@
 /* estilos para a páginas de integrantes */
 
 :root {
-    --bang-chan: linear-gradient(90deg, #0D0D0D, #B22222);
+    --bang-chan: linear-gradient(90deg, #000, #B22222);
     --lee-know: linear-gradient(90deg, #3366FF, #9933CC);
-    --changbin: #0c0c0c;
+    --changbin: #000;
     --hyunjin: #FFD700;
     --han: #FFA500;
     --felix: #FFEE00;
@@ -11,6 +11,9 @@
     --in: linear-gradient(90deg, #33CC66, #9966CC);
 }
 
+body {
+    overflow: hidden;
+}
 
 .conteudo {
     display: flex;
@@ -54,7 +57,7 @@
     margin: -35px 0 0 -35px;
     width: 380px;
     height: 530px;
-    opacity: .5;
+    opacity: .8;
     border-radius: 15px;
 }
 
