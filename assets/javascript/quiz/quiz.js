@@ -22,6 +22,8 @@ const qtdAcertos = document.querySelector('.qtd-acertos');
 const questoesContainer = document.querySelector('.questoes');
 const final = document.querySelector('.final');
 
+
+// quiz
 let questaoAtual = 0;
 let respostasCorretas = 0;
 
@@ -85,3 +87,16 @@ function carregarQuestao() {
 };
 
 carregarQuestao();
+
+// scroll reveal
+ScrollReveal().reveal('h1', {
+    origin: 'top',
+    duration: 1000,
+    distance: '15%'
+});
+
+ScrollReveal().reveal('progress', {
+    origin: 'bottom',
+    duration: 1000,
+    distance: '15%'
+});

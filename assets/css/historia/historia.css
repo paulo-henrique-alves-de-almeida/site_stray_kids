@@ -26,6 +26,7 @@ a {
 
 a:hover {
     color: var(--cor-principal-clara);
+    font-weight: bold;
 }
 
 .citacao {
