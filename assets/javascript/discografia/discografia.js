@@ -40,6 +40,7 @@ ScrollReveal().reveal('.conteudo', {
 // links para albuns
 
 // adquirindo elementos
+const dominAte = document.getElementById('dominate')
 const walkinOnWater = document.getElementById('walkin-on-water');
 const hop = document.getElementById('hop');
 const giant = document.getElementById('giant');
@@ -74,6 +75,10 @@ const not = document.getElementById('not');
 const mixtape = document.getElementById('mixtape');
 
 // link através do clique
+dominAte.addEventListener('click', () => {
+  window.location.href = 'albuns/mixtape_dominate.html';
+});
+
 walkinOnWater.addEventListener('click', () => {
   window.location.href = 'albuns/walkin_on_water_remixes.html';
 });
